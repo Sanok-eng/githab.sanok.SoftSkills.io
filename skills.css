@@ -1,0 +1,126 @@
+.main_teamwork{
+	width: 730px;
+	height: 265px;
+	background:#4970E7;
+	border-radius: 15px;
+	padding-top: 20px;
+}
+.main_timemenegment{
+	width: 730px;
+	height: 265px;
+	background:#4970E7;
+	border-radius: 15px;
+	position: absolute;
+	top: 1232px;
+	right: 150px;
+	padding-top: 20px;
+}
+.main_creativskills{
+	width: 360px;
+	height: 547px;
+	background: #FD7462;
+	border-radius: 15px;
+	position: absolute;
+	top: 665px;
+	right: 150px;
+	padding-top: 20px;
+}
+.main_intelektskills{
+	width: 360px;
+	height: 547px;
+	background: #9CDDBB;
+	border-radius: 15px;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.nav_footer{
+	width: 240px;
+	position: absolute;
+	top: 340px;
+	left: 1000px;
+	margin-top: 1525px;
+	margin-right: 20px;
+}
+.nav_footer > a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #333F89;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 200px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+.footer_nav_goto_team{
+	position: relative;
+	left: 17px;
+	top: 1px;
+}
+.skills_main_img{
+	position: absolute;
+	right: 565px;
+	top: 950px;
+}
+.nav_pages > a:nth-child(2){
+	opacity: 1;
+	font-size: 28px;
+}
+.main > h2{
+	color: white;
+	opacity: 20px;
+}
+.main > p{
+	color: white;
+	opacity: 20px;
+	text-indent: 20px;
+}
+.main_teamwork_subtitle{
+	color: white;
+	opacity: 20px;
+	margin-left: 40px;
+	margin-top: 0px;
+	
+	
+}
+.main_teamwork_info{
+	color: white;
+	opacity: 20px;
+	text-indent: 20px;
+	width: 650px;
+	margin-left: 40px;
+	margin-top: 40px;
+	
+	
+	font-size:18px;
+	text-align: justify;
+}
+.main_creativskills_subtitle{
+	color: white;
+	opacity: 20px;
+	margin-left: 40px;
+	margin-top: 0px;
+	
+}
+.main_creativskills_info{
+	color: white;
+	opacity: 20px;
+	text-indent: 20px;
+	width: 230px;
+	margin-left: 65px;
+	margin-top: 30px;
+	height: 100px;
+	font-size:20px;
+	
+	text-align: justify;
+}
+.main_video{
+	border-radius: 15px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 300px;
+}
+.nav_footer > a:nth-child(2){
+	opacity: 1;
+	font-size: 22px;}

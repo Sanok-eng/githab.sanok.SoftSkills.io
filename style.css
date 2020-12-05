@@ -1,0 +1,139 @@
+*{box-sizing: border-box; 
+	font-family: 'Red Rose', cursive; 
+	margin: 0px; 
+	padding: 0px;}
+.conteiner{
+	margin: 0 auto;
+	width: 1150px;
+}
+.header{
+	text-align: right;
+	background: url(../img/Header.png);
+	height: 455px;
+	width: 100%;
+}
+.h1{
+	margin-top:100px; 
+	color: #4A6FE7;
+	font-size: 64px;
+	animation-name: name;
+	animation-duration: 2s;
+}
+.h2{
+	color:  #333F89;
+	font-size: 16px;
+	animation-name: secondname;
+	animation-duration: 2s;
+}
+@keyframes name{
+	0%{
+			transform: translateX(+200px);
+
+	}
+}
+	.nav_pages{
+		width: 100%;
+		margin-top: 20px;
+		background: #C8D9FD;
+		padding-left: 200px;
+		position: sticky;
+		top: 0px;
+		z-index: 1;
+	}
+.nav_pages > a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 24px;
+	color: #333F89;
+	opacity: 0.5;
+	font-weight: bold;
+	height: 70px;
+	vertical-align: top;
+	line-height: 75px;
+	margin: 0 30px;
+	font-weight: bold;
+
+}
+.nav_pages > a:nth-child(3){
+	margin-top: 7px;
+	background: url(../img/logo_nav.png);
+	height: 58px;
+	width: 58px;
+	opacity: 1;	
+}
+@keyframes secondname{
+	0%{
+			transform: translateY(-200px);
+
+	}
+}
+.footer{
+	height: 100px;
+	width: 100%;
+	margin: 20px 0;
+	background: #C8D9FD;
+}
+.footer h2{
+	font-size: 34px;
+	color: #333F89;
+}
+.footer h3{
+	color: #333F89;
+	font-size: 14px;
+}
+.footer_headline > a{
+	margin-top: 17px;
+	display: inline-block;
+	background: url(../img/footer_logo.png);
+	width: 58px;
+	height: 58px;
+
+}
+.nav_social, .footer_headline, .footer_headline > div{
+	display: inline-block;
+	vertical-align: center;
+}
+.nav_social > a{
+	margin-left: 22px;
+
+}
+.footer_headline{
+	margin-left: 230px;
+}
+.nav_footer{
+	width: 240px;
+	position: absolute;
+	top: 700px;
+	left: 1000px;
+	margin-top: 1190px;
+	margin-right: 20px;
+}
+.nav_footer > a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #333F89;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 200px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+.footer_nav_goto_team{
+	position: relative;
+	left: 17px;
+	top: 1px;
+}
+.footer_nav_social_facebook :hover{
+	height: 50px;
+	width: 50px;
+}
+.footer_nav_social_instagram :hover{
+	height: 50px;
+	width: 50px;
+}
+.footer_nav_social_telegram :hover{
+	height: 50px;
+	width: 50px;
+}
